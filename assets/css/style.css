@@ -155,3 +155,73 @@
 .has-explicit-hero:after{z-index:1!important;pointer-events:none}
 .has-explicit-hero>.container{position:relative;z-index:2}
 @media(max-width:700px){.has-explicit-hero>.page-hero-image{object-position:60% center}}
+
+.payment-panel{padding:30px;background:#fff;border:1px solid #e6d9ee;border-radius:20px;margin:28px 0}.payment-panel dl{display:grid;grid-template-columns:180px 1fr;gap:18px;margin:25px 0 0}.payment-panel dt{font-weight:700;color:#71319f}.payment-panel dd{margin:0;overflow-wrap:anywhere}.profile-note code{display:inline-block;background:#eee1f8;padding:10px 16px;border-radius:8px;font-size:18px;color:#38205b}@media(max-width:600px){.payment-panel{padding:24px}.payment-panel dl{grid-template-columns:1fr;gap:8px}.payment-panel dd{margin-bottom:15px}}
+
+.committee-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.leadership-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.committee-card{padding:28px;background:#fff;border:1px solid #e7deef;border-top:3px solid #a333f2;border-radius:18px}.committee-card:nth-child(3n+2){border-top-color:#007c91}.committee-card:nth-child(3n){border-top-color:#8bc34a}.committee-card h3{font-size:23px;color:#38205b;line-height:1.3}.committee-card ul{list-style:none;padding:0;margin:20px 0 0}.committee-card li+li{border-top:1px solid #eee7f3;padding-top:16px;margin-top:16px}.committee-card strong{display:block;font-size:18px;line-height:1.5}.committee-card li span{display:block;font-size:15px;color:#716a7a;margin-top:6px;line-height:1.6}@media(max-width:900px){.committee-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.committee-grid,.leadership-grid{grid-template-columns:1fr}}
+
+/* Author guidelines */
+.author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem;margin:1.75rem 0}.author-card{padding:1.6rem;border-radius:20px;background:#fff;border:1px solid #e5d9f3;border-top:4px solid #8429d9;box-shadow:0 8px 28px #40106409}.author-card:nth-child(3n+2){border-top-color:#0b9c8a}.author-card:nth-child(3n){border-top-color:#a4c930}.author-card h3{margin:0 0 .8rem}.author-card p{line-height:1.75;margin:0}@media(max-width:700px){.author-grid{grid-template-columns:1fr}.author-card{padding:1.25rem}}
+
+.submission-steps{display:grid;gap:1.25rem;max-width:960px}.submission-steps .author-card{border-left:5px solid #8b36d9}.submission-steps p{line-height:1.8}
+
+@media(min-width:1051px){.main-nav{gap:clamp(8px,1.2vw,20px);flex-wrap:wrap;row-gap:8px}.main-nav a{white-space:nowrap}}
+
+/* Shared inner-page hero: omit repeated breadcrumb navigation. */
+.inner-page .page-breadcrumb{display:none!important}.inner-page main>section:first-child .hero-section-label{display:flex;align-items:center;gap:12px;margin-bottom:22px}.inner-page main>section:first-child .hero-section-label .icon{width:28px;height:28px}
+
+/* Previous symposium editions */
+.edition-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:30px}.edition-card{display:block;padding:30px;border:1px solid #e7deef;border-top:4px solid #a333f2;border-radius:18px;background:#fff;box-shadow:0 8px 25px #38205b08;transition:transform .2s,box-shadow .2s}.edition-card:nth-child(2){border-top-color:#009b95}.edition-card:nth-child(3){border-top-color:#a5c837}.edition-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px #38205b15}.edition-card>.icon{color:#71319f;margin-bottom:20px}.edition-card h3{font-size:30px;margin-bottom:20px;color:#38205b}.edition-card span{font-size:17px;font-weight:650;color:#71319f}@media(max-width:700px){.edition-grid{grid-template-columns:1fr}.edition-card{padding:25px}}
+
+.author-visual-intro{display:grid;grid-template-columns:1.1fr 1fr;gap:36px;align-items:center;margin-bottom:35px}.author-visual-intro img{width:100%;border-radius:24px}.author-journey{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;list-style:none;padding:0;margin:0}.journey-card{border:1px solid #e7deef;border-top:4px solid #9432d8;border-radius:18px;padding:26px;background:#fff;box-shadow:0 7px 24px #38205b09}.journey-card:nth-child(3n+2){border-top-color:#009d95}.journey-card:nth-child(3n){border-top-color:#a3c537}.journey-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;color:#7b2eb5}.step-number{font-size:32px;font-weight:800}.journey-card h3{font-size:25px;line-height:1.2;margin-bottom:14px}.journey-card p{font-size:18px;line-height:1.6;min-height:85px}.journey-card strong{display:block;font-size:16px;color:#6b2f93;background:#f4edf9;border-radius:8px;padding:10px 12px}.author-details-wrap{margin-bottom:50px}.author-full-details{border:1px solid #e5d9ef;border-radius:18px;overflow:hidden}.author-full-details summary{padding:22px;font-weight:750;cursor:pointer;color:#71319f;min-height:48px}.author-full-details>.section>.container{width:calc(100% - 48px)}@media(max-width:900px){.author-journey{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.author-visual-intro{grid-template-columns:1fr;gap:20px}.author-visual-intro img{max-height:260px;object-fit:contain}.author-journey{grid-template-columns:1fr}.journey-card p{min-height:0}.journey-card{padding:22px}}
+
+/* Fees: focus attention on rates, registration and payment. */
+.fee-grid{align-items:stretch}.presenter-highlight{background:linear-gradient(135deg,#6322a0,#8c2fd0);border-color:#71319f;box-shadow:0 14px 36px #71319f26}.presenter-highlight h2,.presenter-highlight p,.presenter-highlight .fee-row,.presenter-highlight .fee-row strong{color:#fff}.presenter-highlight .fee-row{border-color:#ffffff35}.presenter-highlight .fee-row strong{font-size:36px}.presenter-highlight .fee-sub strong{font-size:25px}.presenter-highlight .fee-small{color:#f0e5fa}.participant-panel{background:#fff;border:2px solid #8d42c3}.participant-panel .fee-row strong{font-size:36px;color:#71319f}.fees-action{display:flex;align-items:center;justify-content:space-between;gap:25px;border:1px solid #dfc9f1;border-radius:18px;padding:28px;margin:30px 0;background:#f7f0fc}.fees-action h3{font-size:25px;margin-bottom:12px}.fees-action p{font-size:17px;margin:0}.fees-action .button-row{flex-shrink:0;flex-wrap:wrap}.payment-panel{background:#f7effc;border:1px solid #dec8ee}.account-emphasis{display:flex;flex-wrap:wrap;align-items:center;gap:15px}.account-emphasis>strong{font-size:29px;color:#6322a0;letter-spacing:.04em}.copy-account{font-size:15px;min-height:44px}.copy-account:after{display:none}.copy-feedback{display:block;width:100%;font-size:16px;color:#6322a0}.payment-proof-highlight{background:#eee0f9;border-left:5px solid #8429d9;padding:26px;border-radius:14px}.payment-proof-highlight h3{font-size:25px}.refund-note{font-weight:650;border-left:4px solid #a333f2;padding:12px 18px;background:#fff;margin-top:25px}@media(max-width:900px){.fees-action{align-items:flex-start;flex-direction:column}.fees-action .button-row{flex-shrink:1}}@media(max-width:600px){.account-emphasis>strong{font-size:25px}.fees-action{padding:23px}.fees-action .button-row{display:grid;width:100%}.presenter-highlight .fee-row strong,.participant-panel .fee-row strong{font-size:31px}}
+
+/* Fees: clear price hierarchy and accessible payment actions. */
+.fees-page .fee-panel{position:relative;padding:38px;overflow:hidden}
+.fees-page .fee-card-icon{display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:16px;background:#f0e3fa;color:#71319f;margin-bottom:22px}
+.fees-page .presenter-highlight .fee-card-icon{background:#ffffff20;color:#fff}
+.fees-page .fee-panel h2:before{display:none}
+.fees-page .fee-row:not(.fee-sub) strong{font-size:clamp(32px,3.4vw,46px);letter-spacing:-.04em;line-height:1.15}
+.fees-page .second-paper-rate{margin-top:-7px;padding:0 0 22px;min-height:44px;font-size:16px}
+.fees-page .presenter-highlight .second-paper-rate{color:#f0e5fa}
+.fees-page .presenter-highlight .second-paper-rate strong{font-size:23px;font-weight:650}
+.fees-page .presenter-highlight .fee-small{border-top:1px solid #ffffff35;padding-top:20px}
+.fees-page .participant-panel h2{color:#6322a0}
+.fees-page .fee-register{background:#71319f;color:#fff;box-shadow:0 6px 16px #71319f20}
+.fees-page .fee-register:hover{background:#57217e}
+.fees-page .payment-panel{background:#f3eafa;border-color:#ddc6ee}
+.fees-page .account-emphasis{padding:18px;background:#fff;border:1px solid #ddc6ee;border-radius:12px}
+.fees-page .payment-proof-highlight code{background:#fff;border:1px solid #d4b5eb;font-weight:700;overflow-wrap:anywhere;max-width:100%}
+.fees-page .copy-account{border-color:#a879c9;color:#6322a0}
+.fees-page .copy-feedback:empty{display:none}
+@media(max-width:600px){.fees-page .fee-panel{padding:26px}.fees-page .account-emphasis{padding:15px}.fees-page .account-emphasis>strong{font-size:24px}.fees-page .copy-account{width:100%}.fees-page .fee-row{gap:12px}.fees-page .fee-row>span{font-size:17px}}
+
+/* Unified header and page heroes — October 2026. */
+.site-header .nav-inner{gap:20px}
+.site-header .main-nav{align-items:center;gap:18px}
+.site-header .main-nav a{display:flex;align-items:center;min-height:44px;line-height:1.35}
+.site-header .language-switch button{min-width:44px;min-height:44px;font-size:13px}
+.site-header .nav-register{background:#8133c4;color:#fff;border-radius:12px;white-space:nowrap}
+.site-header .nav-register:hover{background:#67249f}
+main>section.has-explicit-hero{display:flex;align-items:center;min-height:440px;padding:64px 0;background:#38205b;border:0}
+main>section.has-explicit-hero:after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(40,20,64,.94) 0%,rgba(56,32,91,.83) 43%,rgba(56,32,91,.36) 74%,rgba(40,20,64,.22) 100%)}
+main>section.has-explicit-hero>.page-hero-image{object-position:center;object-fit:cover}
+main>section.has-explicit-hero>.container{display:flex;flex-direction:column;align-items:flex-start;gap:20px}
+main>section.has-explicit-hero .hero-section-label{display:flex;align-items:center;gap:14px;margin:0;color:#f0dfff;font-size:14px;font-weight:750;letter-spacing:.12em;line-height:1.4;text-transform:uppercase}
+main>section.has-explicit-hero .hero-section-label>.icon{width:46px;height:46px;padding:10px;border:1px solid #ffffff4d;border-radius:14px;background:#ffffff14;color:#fff}
+main>section.has-explicit-hero h1{font:800 clamp(40px,4.4vw,60px)/1.12 'Segoe UI',Arial,sans-serif;letter-spacing:-.035em;max-width:760px;margin:0;color:#fff;text-wrap:balance}
+main>section.has-explicit-hero p:not(.eyebrow){font-size:20px;line-height:1.65;max-width:660px;margin:0;color:#f1eaf8}
+main>section.has-explicit-hero .about-theme{font-size:14px;line-height:1.5;padding:8px 14px;border:1px solid #ffffff44;border-radius:10px;background:#ffffff10;color:#f1eaf8;margin:0}
+.hero{padding:72px 0 100px}
+.hero:before{background:linear-gradient(90deg,rgba(40,20,64,.94),rgba(56,32,91,.83) 43%,rgba(56,32,91,.36) 74%,rgba(40,20,64,.22))}
+@media(max-width:1200px){.site-header .main-nav{display:none;position:absolute;top:100%;left:0;right:0;padding:16px 24px;background:#fff;border-bottom:1px solid var(--line);grid-template-columns:1fr 1fr;gap:0}.site-header .main-nav.is-open{display:grid}.site-header .main-nav a{padding:12px}.site-header .menu-toggle{display:flex;align-items:center;justify-content:center;gap:6px;min-height:44px}}
+@media(max-width:700px){main>section.has-explicit-hero{min-height:400px;padding:48px 0}main>section.has-explicit-hero>.container{gap:18px}main>section.has-explicit-hero:after{background:linear-gradient(90deg,rgba(40,20,64,.93),rgba(56,32,91,.79) 60%,rgba(40,20,64,.54))}main>section.has-explicit-hero>.page-hero-image{object-position:60% center}main>section.has-explicit-hero h1{font-size:clamp(32px,7.5vw,44px);max-width:100%}main>section.has-explicit-hero p:not(.eyebrow){font-size:18px;line-height:1.6}main>section.has-explicit-hero .hero-section-label{font-size:12px;letter-spacing:.09em;gap:12px}main>section.has-explicit-hero .hero-section-label>.icon{width:44px;height:44px}main>section.has-explicit-hero .about-theme{font-size:13px}.site-header .utility-inner{gap:8px}.site-header .nav-inner{gap:10px}.site-header .language-switch{gap:0}.hero{padding:88px 0 72px}.hero:before{background:linear-gradient(180deg,#28144066,#38205bde 38%,#281440f5)} }
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.site-header a{transition:none}}
+
+/* Hero icons are standalone SVGs and remain visible in either language. */
+main>section.has-explicit-hero .hero-section-label>.icon{display:block!important;visibility:visible!important;opacity:1!important;flex:0 0 46px;overflow:visible;fill:none;color:#fff;stroke:currentColor}
+@media(max-width:700px){main>section.has-explicit-hero .hero-section-label>.icon{flex-basis:44px}}
+/* Override the older, more specific 28px inner-page icon rule. */
+main>section.has-explicit-hero .hero-section-label>.icon{width:48px!important;height:48px!important;min-width:48px;min-height:48px;padding:9px!important;flex:0 0 48px;box-sizing:border-box}
