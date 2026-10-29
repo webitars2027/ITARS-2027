@@ -616,8 +616,8 @@ window.ITARS_TRANSLATIONS = {
     "bm": "Penghantaran abstrak: 1 November–31 Disember 2026"
   },
   "catpending": {
-    "en": "Submission forms, templates and detailed author instructions will be added once confirmed by the organisers.",
-    "bm": "Borang penghantaran, template dan arahan terperinci penulis akan ditambah selepas disahkan oleh penganjur."
+    "en": "Registration and payment information is available on the Fees page. Author templates and detailed instructions await confirmation.",
+    "bm": "Maklumat pendaftaran dan pembayaran tersedia di halaman Yuran. Template penulis dan arahan terperinci menunggu pengesahan."
   },
   "cat1title": {
     "en": "Engineering & Technology",
@@ -748,8 +748,8 @@ window.ITARS_TRANSLATIONS = {
     "bm": "Sebelum mendaftar"
   },
   "feehowcopy": {
-    "en": "Prepare your participation details. The official registration form and payment instructions will be added after organiser confirmation.",
-    "bm": "Sediakan maklumat penyertaan anda. Borang pendaftaran rasmi dan arahan pembayaran akan ditambah selepas pengesahan penganjur."
+    "en": "Choose your category, register through Microsoft CMT and upload your payment proof.",
+    "bm": "Pilih kategori, daftar melalui Microsoft CMT dan muat naik bukti pembayaran."
   },
   "feestep1": {
     "en": "Choose your category",
@@ -768,16 +768,16 @@ window.ITARS_TRANSLATIONS = {
     "bm": "Sediakan nama, institusi dan maklumat hubungan. Pembentang juga perlu menyediakan maklumat kertas kajian."
   },
   "feestep3": {
-    "en": "Follow official instructions",
-    "bm": "Ikuti arahan rasmi"
+    "en": "Register & upload payment proof",
+    "bm": "Daftar & muat naik bukti pembayaran"
   },
   "feestep3copy": {
-    "en": "Wait for the confirmed registration link and payment guidance from the organisers.",
-    "bm": "Gunakan pautan pendaftaran dan panduan pembayaran yang disahkan oleh penganjur."
+    "en": "Use the CMT portal, complete payment and upload the receipt as Paper ID_ITARS2027. Registration is confirmed after full payment.",
+    "bm": "Gunakan portal CMT, lengkapkan pembayaran dan muat naik resit sebagai Paper ID_ITARS2027. Pendaftaran disahkan selepas bayaran penuh."
   },
   "feepending": {
-    "en": "Registration form and payment details: awaiting confirmation.",
-    "bm": "Borang pendaftaran dan butiran pembayaran: menunggu pengesahan."
+    "en": "Payment instructions are available below. The supplied CMT conference identifier still requires confirmation.",
+    "bm": "Arahan pembayaran tersedia di bawah. Pengenal persidangan CMT yang diberikan masih memerlukan pengesahan."
   },
   "askfees": {
     "en": "Enquire about registration",
@@ -852,8 +852,8 @@ window.ITARS_TRANSLATIONS = {
     "bm": "Persediaan penyertaan dalam talian"
   },
   "progpreparecopy": {
-    "en": "Check your connection, microphone and camera beforehand. Presentation duration, platform requirements and joining instructions will follow the official programme.",
-    "bm": "Semak sambungan internet, mikrofon dan kamera lebih awal. Tempoh pembentangan, keperluan platform dan arahan penyertaan akan mengikut atur cara rasmi."
+    "en": "Check your internet connection, microphone and camera. Prepare a 15-minute presentation followed by 5 minutes of Q&A, using the official template.",
+    "bm": "Semak sambungan internet, mikrofon dan kamera. Sediakan pembentangan 15 minit diikuti 5 minit soal jawab menggunakan template rasmi."
   },
   "progmilestones": {
     "en": "Submission and event milestones",
@@ -952,16 +952,16 @@ window.ITARS_TRANSLATIONS = {
     "bm": "Sediakan penyelidikan anda untuk ITARS."
   },
   "submissionlead": {
-    "en": "Review the published submission dates and prepare for the official author instructions.",
-    "bm": "Semak tarikh penghantaran yang diterbitkan dan bersedia untuk panduan rasmi penulis."
+    "en": "Prepare your English full paper, download the official template and review the submission and presentation requirements.",
+    "bm": "Sediakan kertas penuh dalam bahasa Inggeris, muat turun template rasmi dan semak syarat penghantaran serta pembentangan."
   },
   "submissionstatus": {
     "en": "Submission portal awaiting confirmation",
     "bm": "Portal penghantaran menunggu pengesahan"
   },
   "submissioncopy": {
-    "en": "The official upload link, abstract format, manuscript template and review instructions have not yet been provided. No submission is collected on this website at present.",
-    "bm": "Pautan muat naik rasmi, format abstrak, template manuskrip dan arahan penilaian belum diberikan. Website ini belum menerima penghantaran pada masa ini."
+    "en": "Submit your abstract and full paper through the official Microsoft CMT portal. Follow the author guidelines and download the official manuscript template before editing.",
+    "bm": "Hantar abstrak dan kertas penuh melalui portal rasmi Microsoft CMT. Ikuti panduan penulis dan muat turun template manuskrip rasmi sebelum menyunting."
   },
   "submissionprepare": {
     "en": "What you can prepare now",
@@ -986,5 +986,749 @@ window.ITARS_TRANSLATIONS = {
   "regpendingbutton": {
     "en": "Registration information",
     "bm": "Maklumat pendaftaran"
+  },
+  "paymenttitle": {
+    "en": "Payment instructions",
+    "bm": "Arahan pembayaran"
+  },
+  "paymentintro": {
+    "en": "Registration is confirmed only after full payment. All registration fees must be received on the registration date.",
+    "bm": "Pendaftaran hanya disahkan selepas bayaran penuh diterima. Semua yuran pendaftaran mesti diterima pada tarikh pendaftaran."
+  },
+  "banklabel": {
+    "en": "Bank transfer details",
+    "bm": "Butiran pindahan bank"
+  },
+  "accountname": {
+    "en": "Account name",
+    "bm": "Nama akaun"
+  },
+  "accountnumber": {
+    "en": "Account number",
+    "bm": "Nombor akaun"
+  },
+  "bankname": {
+    "en": "Bank",
+    "bm": "Bank"
+  },
+  "swift": {
+    "en": "SWIFT code",
+    "bm": "Kod SWIFT"
+  },
+  "bankaddress": {
+    "en": "Bank address",
+    "bm": "Alamat bank"
+  },
+  "paymentproof": {
+    "en": "Proof of payment",
+    "bm": "Bukti pembayaran"
+  },
+  "paymentproofcopy": {
+    "en": "Upload your proof of payment to the CMT system. Name the file using your Paper ID followed by _ITARS2027.",
+    "bm": "Muat naik bukti pembayaran ke sistem CMT. Namakan fail menggunakan Paper ID anda diikuti dengan _ITARS2027."
+  },
+  "charges": {
+    "en": "All remittance charges, including foreign bank charges, must be borne by the registrant.",
+    "bm": "Semua caj kiriman wang, termasuk caj bank asing, ditanggung oleh pendaftar."
+  },
+  "refund": {
+    "en": "Paid registration fees are non-refundable if you are unable to participate in the symposium.",
+    "bm": "Yuran pendaftaran yang telah dibayar tidak akan dikembalikan sekiranya anda tidak dapat menyertai simposium."
+  },
+  "cmtregister": {
+    "en": "Registration through Microsoft CMT",
+    "bm": "Pendaftaran melalui Microsoft CMT"
+  },
+  "cmtwarning": {
+    "en": "Register for ITARS 2027 through the official Microsoft CMT portal. The organisers will update the conference details in this portal.",
+    "bm": "Daftar untuk ITARS 2027 melalui portal rasmi Microsoft CMT. Penganjur akan mengemas kini butiran persidangan dalam portal ini."
+  },
+  "cmtlink": {
+    "en": "Register via Microsoft CMT",
+    "bm": "Daftar melalui Microsoft CMT"
+  },
+  "cmtvideo": {
+    "en": "Watch registration instructions",
+    "bm": "Tonton panduan pendaftaran"
+  },
+  "cmtcredit": {
+    "en": "Microsoft CMT acknowledgement",
+    "bm": "Penghargaan Microsoft CMT"
+  },
+  "cmtcreditcopy": {
+    "en": "The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.",
+    "bm": "Perkhidmatan Microsoft CMT digunakan untuk mengurus proses penilaian rakan sebaya bagi persidangan ini. Perkhidmatan ini disediakan secara percuma oleh Microsoft yang menanggung semua perbelanjaan, termasuk kos perkhidmatan awan Azure serta pembangunan dan sokongan perisian."
+  },
+  "committee": {
+    "en": "Committee",
+    "bm": "Jawatankuasa"
+  },
+  "committeehero": {
+    "en": "The people behind ITARS 2027.",
+    "bm": "Pasukan di sebalik ITARS 2027."
+  },
+  "committeelead": {
+    "en": "Meet the leadership and working committees supporting the symposium.",
+    "bm": "Kenali kepimpinan dan jawatankuasa pelaksana yang menjayakan simposium."
+  },
+  "committeeleaders": {
+    "en": "Leadership",
+    "bm": "Kepimpinan"
+  },
+  "committeeteams": {
+    "en": "Working committees",
+    "bm": "Jawatankuasa pelaksana"
+  },
+  "committeeabout": {
+    "en": "Meet our organising committee",
+    "bm": "Kenali jawatankuasa penganjur"
+  },
+  "commrole0": {
+    "en": "Patron",
+    "bm": "Penaung"
+  },
+  "commaff0_0": {
+    "en": "Chairman of MTDA",
+    "bm": "Pengerusi MTDA"
+  },
+  "commaff0_1": {
+    "en": "Director of JPPKK",
+    "bm": "Pengarah JPPKK"
+  },
+  "commrole1": {
+    "en": "Advisor",
+    "bm": "Penasihat"
+  },
+  "commaff1_0": {
+    "en": "Director of PTSN",
+    "bm": "Pengarah PTSN"
+  },
+  "commaff1_1": {
+    "en": "Chairman of PUSPANITA JPPKK",
+    "bm": "Pengerusi PUSPANITA JPPKK"
+  },
+  "commrole2": {
+    "en": "Programme Chairman",
+    "bm": "Pengerusi Program"
+  },
+  "commaff2_0": {
+    "en": "PUSPANITA JPPKK/MTDA",
+    "bm": "PUSPANITA JPPKK/MTDA"
+  },
+  "commaff2_1": {
+    "en": "Chairman of PUSPANITA PTSN",
+    "bm": "Pengerusi PUSPANITA PTSN"
+  },
+  "commrole3": {
+    "en": "Programme Director",
+    "bm": "Pengarah Program"
+  },
+  "commaff3_0": {
+    "en": "PUSPANITA PTSN/MTDA",
+    "bm": "PUSPANITA PTSN/MTDA"
+  },
+  "commaff3_1": {
+    "en": "PUSPANITA JPPKK",
+    "bm": "PUSPANITA JPPKK"
+  },
+  "commaff3_2": {
+    "en": "PUSPANITA PSA",
+    "bm": "PUSPANITA PSA"
+  },
+  "commrole4": {
+    "en": "Programme Deputy Director",
+    "bm": "Timbalan Pengarah Program"
+  },
+  "commaff4_0": {
+    "en": "PUSPANITA JPPKK/MTDA",
+    "bm": "PUSPANITA JPPKK/MTDA"
+  },
+  "commaff4_1": {
+    "en": "PUSPANITA JPPKK/MTDA",
+    "bm": "PUSPANITA JPPKK/MTDA"
+  },
+  "commaff4_2": {
+    "en": "PUSPANITA JPPKK/MTDA",
+    "bm": "PUSPANITA JPPKK/MTDA"
+  },
+  "commrole5": {
+    "en": "Secretaries",
+    "bm": "Setiausaha"
+  },
+  "commaff5_0": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commaff5_1": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commrole6": {
+    "en": "Treasurers",
+    "bm": "Bendahari"
+  },
+  "commaff6_0": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commaff6_1": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commrole7": {
+    "en": "Promotion",
+    "bm": "Promosi"
+  },
+  "commaff7_0": {
+    "en": "PUO/MTDA",
+    "bm": "PUO/MTDA"
+  },
+  "commaff7_1": {
+    "en": "PTSN",
+    "bm": "PTSN"
+  },
+  "commrole8": {
+    "en": "Opening and Closing Ceremony",
+    "bm": "Majlis Perasmian dan Penutupan"
+  },
+  "commaff8_0": {
+    "en": "PUSPANITA PSA",
+    "bm": "PUSPANITA PSA"
+  },
+  "commaff8_1": {
+    "en": "PUSPANITA PSA",
+    "bm": "PUSPANITA PSA"
+  },
+  "commrole9": {
+    "en": "Website and Graphic Designer",
+    "bm": "Laman Web dan Reka Bentuk Grafik"
+  },
+  "commaff9_0": {
+    "en": "KK Masjid Tanah",
+    "bm": "KK Masjid Tanah"
+  },
+  "commaff9_1": {
+    "en": "KK Ledang",
+    "bm": "KK Ledang"
+  },
+  "commaff9_2": {
+    "en": "KK Kuala Langat",
+    "bm": "KK Kuala Langat"
+  },
+  "commrole10": {
+    "en": "Publication",
+    "bm": "Penerbitan"
+  },
+  "commaff10_0": {
+    "en": "PUO/MTDA",
+    "bm": "PUO/MTDA"
+  },
+  "commaff10_1": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commrole11": {
+    "en": "Proceeding",
+    "bm": "Prosiding"
+  },
+  "commaff11_0": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commaff11_1": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commrole12": {
+    "en": "Parallel Session Coordinators",
+    "bm": "Penyelaras Sesi Selari"
+  },
+  "commaff12_0": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commaff12_1": {
+    "en": "PUSPANITA PSA",
+    "bm": "PUSPANITA PSA"
+  },
+  "commrole13": {
+    "en": "Presentation Panel Reviewer",
+    "bm": "Panel Penilai Pembentangan"
+  },
+  "commaff13_0": {
+    "en": "PTSN",
+    "bm": "PTSN"
+  },
+  "commaff13_1": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commrole14": {
+    "en": "Assistant Presentation Panel Reviewer",
+    "bm": "Penolong Panel Penilai Pembentangan"
+  },
+  "commaff14_0": {
+    "en": "PSA",
+    "bm": "PSA"
+  },
+  "commrole15": {
+    "en": "Award Judging",
+    "bm": "Penjurian Anugerah"
+  },
+  "commaff15_0": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commrole16": {
+    "en": "Paper Reviewers",
+    "bm": "Penilai Kertas Kerja"
+  },
+  "commaff16_0": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commaff16_1": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commrole17": {
+    "en": "Abstract Management",
+    "bm": "Pengurusan Abstrak"
+  },
+  "commaff17_0": {
+    "en": "PUSPANITA JPPKK/MTDA",
+    "bm": "PUSPANITA JPPKK/MTDA"
+  },
+  "commaff17_1": {
+    "en": "KKBM",
+    "bm": "KKBM"
+  },
+  "commrole18": {
+    "en": "Conference Management System Coordinator",
+    "bm": "Penyelaras Sistem Pengurusan Persidangan"
+  },
+  "commaff18_0": {
+    "en": "PTSN",
+    "bm": "PTSN"
+  },
+  "commrole19": {
+    "en": "Programme Book",
+    "bm": "Buku Program"
+  },
+  "commaff19_0": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commaff19_1": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commrole20": {
+    "en": "Technical",
+    "bm": "Teknikal"
+  },
+  "commaff20_0": {
+    "en": "PTSN",
+    "bm": "PTSN"
+  },
+  "commaff20_1": {
+    "en": "PUSPANITA PTSN/MTDA",
+    "bm": "PUSPANITA PTSN/MTDA"
+  },
+  "commaff20_2": {
+    "en": "PUSPANITA KKBDA",
+    "bm": "PUSPANITA KKBDA"
+  },
+  "commrole21": {
+    "en": "Certificate",
+    "bm": "Sijil"
+  },
+  "commaff21_0": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commaff21_1": {
+    "en": "PUSPANITA PTSN/MTDA",
+    "bm": "PUSPANITA PTSN/MTDA"
+  },
+  "commrole22": {
+    "en": "Registration",
+    "bm": "Pendaftaran"
+  },
+  "commaff22_0": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commaff22_1": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commrole23": {
+    "en": "Proofread",
+    "bm": "Penyemakan Bahasa"
+  },
+  "commaff23_0": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "commaff23_1": {
+    "en": "PUSPANITA PTSN",
+    "bm": "PUSPANITA PTSN"
+  },
+  "authorintro": {
+    "en": "Author submission guidelines",
+    "bm": "Panduan penghantaran penulis"
+  },
+  "authorlanguage": {
+    "en": "English only",
+    "bm": "Bahasa Inggeris sahaja"
+  },
+  "authorlanguagecopy": {
+    "en": "Full papers and all conference presentations must be in English. Use the official A4 Microsoft Word template.",
+    "bm": "Kertas penuh dan semua pembentangan persidangan mestilah dalam bahasa Inggeris. Gunakan template rasmi Microsoft Word bersaiz A4."
+  },
+  "authorpages": {
+    "en": "6–10 pages",
+    "bm": "6–10 halaman"
+  },
+  "authorpagescopy": {
+    "en": "Prepare a full paper of 6–10 pages, including the abstract, text, figures, tables and references. Papers exceeding 10 pages may be returned for revision.",
+    "bm": "Sediakan kertas penuh 6–10 halaman, termasuk abstrak, teks, rajah, jadual dan rujukan. Kertas melebihi 10 halaman boleh dikembalikan untuk pembetulan."
+  },
+  "authorabstract": {
+    "en": "Abstract and formatting",
+    "bm": "Abstrak dan format"
+  },
+  "authorabstractcopy": {
+    "en": "Use a 250–300-word English abstract, 3–5 italicised keywords, Times New Roman 11, single spacing and APA 7th edition references. Keep tables editable and label all tables and figures clearly.",
+    "bm": "Gunakan abstrak bahasa Inggeris 250–300 patah perkataan, 3–5 kata kunci beritalik, Times New Roman 11, langkau tunggal dan rujukan APA edisi ke-7. Pastikan jadual boleh disunting serta semua jadual dan rajah dilabel dengan jelas."
+  },
+  "authortemplates": {
+    "en": "Official templates",
+    "bm": "Template rasmi"
+  },
+  "downloadfirst": {
+    "en": "Download a copy before editing. Do not edit the shared documents directly.",
+    "bm": "Muat turun salinan sebelum menyunting. Jangan sunting dokumen yang dikongsi secara terus."
+  },
+  "worddownload": {
+    "en": "Download full paper template · DOCX",
+    "bm": "Muat turun template kertas penuh · DOCX"
+  },
+  "ppttemplate": {
+    "en": "Download presentation template · PPTX",
+    "bm": "Muat turun template pembentangan · PPTX"
+  },
+  "canvatemplate": {
+    "en": "Open Canva template",
+    "bm": "Buka template Canva"
+  },
+  "paperframe": {
+    "en": "Suggested paper structure",
+    "bm": "Cadangan struktur kertas"
+  },
+  "frame0": {
+    "en": "1. Background and objectives",
+    "bm": "1. Latar belakang dan objektif"
+  },
+  "frame0copy": {
+    "en": "Describe the state of the art, the research problem and its significance, existing limitations and your study objectives.",
+    "bm": "Huraikan perkembangan terkini bidang, masalah dan kepentingan kajian, batasan sedia ada serta objektif kajian."
+  },
+  "frame1": {
+    "en": "2. Methods and originality",
+    "bm": "2. Kaedah dan keaslian"
+  },
+  "frame1copy": {
+    "en": "Explain your methods, experimental setup or system design, highlighting the original or innovative aspects.",
+    "bm": "Jelaskan kaedah, persediaan eksperimen atau reka bentuk sistem dengan menonjolkan aspek asli atau inovatif."
+  },
+  "frame2": {
+    "en": "3. Discussion of the method",
+    "bm": "3. Perbincangan kaedah"
+  },
+  "frame2copy": {
+    "en": "Discuss advantages, challenges and improvements compared with previous studies.",
+    "bm": "Bincangkan kelebihan, cabaran dan penambahbaikan berbanding kajian terdahulu."
+  },
+  "frame3": {
+    "en": "4. Results and evidence",
+    "bm": "4. Dapatan dan bukti"
+  },
+  "frame3copy": {
+    "en": "Present your main findings with data, tables or figures that support the conclusions.",
+    "bm": "Bentangkan dapatan utama dengan data, jadual atau rajah yang menyokong kesimpulan."
+  },
+  "frame4": {
+    "en": "5. Conclusions and future work",
+    "bm": "5. Kesimpulan dan kajian lanjutan"
+  },
+  "frame4copy": {
+    "en": "Summarise the contributions, implications, limitations and possible future developments or applications.",
+    "bm": "Rumuskan sumbangan, implikasi, batasan serta potensi pembangunan atau aplikasi pada masa hadapan."
+  },
+  "reviewethics": {
+    "en": "Peer review and publication ethics",
+    "bm": "Semakan rakan sebaya dan etika penerbitan"
+  },
+  "reviewprocess": {
+    "en": "Independent peer review",
+    "bm": "Semakan rakan sebaya bebas"
+  },
+  "reviewprocesscopy": {
+    "en": "Each paper undergoes double-blind peer review by at least two reviewers, assessing originality, clarity, technical contribution and relevance to the theme, Excellence in TVET and Entrepreneurship. Revise the manuscript in response to their comments before camera-ready submission.",
+    "bm": "Setiap kertas menjalani semakan rakan sebaya secara double-blind oleh sekurang-kurangnya dua penyemak berdasarkan keaslian, kejelasan, sumbangan teknikal dan kesesuaian dengan tema Excellence in TVET and Entrepreneurship. Baiki manuskrip mengikut ulasan sebelum penghantaran versi camera-ready."
+  },
+  "reviewanonymous": {
+    "en": "Prepare an anonymous review copy",
+    "bm": "Sediakan salinan semakan tanpa identiti"
+  },
+  "reviewanonymouscopy": {
+    "en": "For double-blind review, conceal author names, affiliations and identifying details in the review manuscript. The supplied template contains author fields; confirm the CMT upload requirements with the organisers.",
+    "bm": "Untuk semakan double-blind, sembunyikan nama, afiliasi dan maklumat pengenalan penulis dalam manuskrip semakan. Template yang diberikan mengandungi ruang identiti penulis; sahkan keperluan muat naik CMT dengan penganjur."
+  },
+  "reviewsimilarity": {
+    "en": "Originality and similarity",
+    "bm": "Keaslian dan kesamaan"
+  },
+  "reviewsimilaritycopy": {
+    "en": "All papers undergo plagiarism screening with a maximum similarity index of 20%. Submit original work that has not been published and is not under consideration elsewhere.",
+    "bm": "Semua kertas menjalani saringan plagiarisme dengan indeks kesamaan maksimum 20%. Hantar karya asli yang belum diterbitkan dan tidak sedang dipertimbangkan di tempat lain."
+  },
+  "reviewai": {
+    "en": "AI disclosure and permissions",
+    "bm": "Pengisytiharan AI dan kebenaran"
+  },
+  "reviewaicopy": {
+    "en": "Clearly acknowledge AI-assisted writing or data generation. Obtain permission for copyrighted images, figures and datasets. Authors agree to scholarly publication ethics and to present accepted work at the conference.",
+    "bm": "Nyatakan dengan jelas penggunaan AI dalam penulisan atau penjanaan data. Dapatkan kebenaran untuk imej, rajah dan set data berhak cipta. Penulis bersetuju mematuhi etika penerbitan ilmiah dan membentangkan karya yang diterima."
+  },
+  "presentationguide": {
+    "en": "Online presentation guidelines",
+    "bm": "Panduan pembentangan dalam talian"
+  },
+  "presentationtime": {
+    "en": "15 minutes + 5 minutes Q&A",
+    "bm": "15 minit + 5 minit soal jawab"
+  },
+  "presentationtimecopy": {
+    "en": "All accepted papers must be presented online in English at ITARS 2027. Each presenter has 15 minutes to present, followed by 5 minutes for questions and answers. Please remain for the entire session to support fellow authors and participate in discussion.",
+    "bm": "Semua kertas yang diterima mesti dibentangkan dalam talian dalam bahasa Inggeris di ITARS 2027. Setiap pembentang diberi 15 minit untuk membentang, diikuti 5 minit soal jawab. Pembentang digalakkan kekal sepanjang sesi bagi menyokong penulis lain dan menyertai perbincangan."
+  },
+  "presentationslides": {
+    "en": "Prepare clear, visual slides",
+    "bm": "Sediakan slaid yang jelas dan visual"
+  },
+  "presentationslidescopy": {
+    "en": "Use the official ITARS 2027 PowerPoint or Canva template. Summarise objectives, methods, results and conclusions with concise text, figures, charts and visuals. Download a copy before editing; do not edit the shared template directly.",
+    "bm": "Gunakan template rasmi PowerPoint atau Canva ITARS 2027. Ringkaskan objektif, kaedah, dapatan dan kesimpulan dengan teks padat, rajah, carta serta visual. Muat turun salinan sebelum menyunting; jangan sunting template yang dikongsi secara terus."
+  },
+  "presentationtech": {
+    "en": "Technical readiness and evaluation",
+    "bm": "Persediaan teknikal dan penilaian"
+  },
+  "presentationtechcopy": {
+    "en": "Ensure a stable internet connection, a functioning camera and clear audio. Session chairs will evaluate content quality, clarity of delivery and research contribution. Session slots, the platform and joining links will be announced separately.",
+    "bm": "Pastikan sambungan internet stabil, kamera berfungsi dan audio jelas. Pengerusi sesi akan menilai kualiti kandungan, kejelasan penyampaian dan sumbangan penyelidikan. Slot sesi, platform dan pautan penyertaan akan diumumkan secara berasingan."
+  },
+  "presentationtemplates": {
+    "en": "View official templates",
+    "bm": "Lihat template rasmi"
+  },
+  "submissionsteps": {
+    "en": "Your submission journey",
+    "bm": "Langkah penghantaran anda"
+  },
+  "substep1": {
+    "en": "1. Submit your abstract",
+    "bm": "1. Hantar abstrak"
+  },
+  "substep1copy": {
+    "en": "Submit a 250–300-word English abstract through the online submission portal. State the background, objectives, methodology, key findings and significance. Avoid symbols, equations and footnotes. Include 3–5 italicised keywords and accurate author names, affiliations and corresponding email. Abstract submission: 1 November–31 December 2026. Acceptance notification: by 15 January 2027.",
+    "bm": "Hantar abstrak bahasa Inggeris 250–300 patah perkataan melalui portal penghantaran dalam talian. Nyatakan latar belakang, objektif, metodologi, dapatan utama dan kepentingan kajian. Elakkan simbol, persamaan dan nota kaki. Sertakan 3–5 kata kunci beritalik serta nama, afiliasi dan e-mel penulis koresponden yang tepat. Penghantaran abstrak: 1 November–31 Disember 2026. Notifikasi penerimaan: selewat-lewatnya 15 Januari 2027."
+  },
+  "substep2": {
+    "en": "2. Prepare your full paper",
+    "bm": "2. Sediakan kertas penuh"
+  },
+  "substep2copy": {
+    "en": "After abstract acceptance, use the attached official A4 DOCX template for a 6–10-page paper. Include Abstract, Introduction, Literature Review, Methodology, Results and Discussion, Conclusion and References. Use Times New Roman 11, single spacing and APA 7th edition. Tables must be editable; clearly label all tables and figures. Download the template before editing.",
+    "bm": "Selepas abstrak diterima, gunakan template rasmi A4 DOCX yang dilampirkan untuk kertas 6–10 halaman. Sertakan Abstrak, Pengenalan, Sorotan Literatur, Metodologi, Dapatan dan Perbincangan, Kesimpulan serta Rujukan. Gunakan Times New Roman 11, langkau tunggal dan APA edisi ke-7. Jadual mesti boleh disunting; labelkan semua jadual dan rajah dengan jelas. Muat turun template sebelum menyunting."
+  },
+  "substep3": {
+    "en": "3. Submit your full paper",
+    "bm": "3. Hantar kertas penuh"
+  },
+  "substep3copy": {
+    "en": "Upload through the submission portal linked below. Filename: ITARS2027_FullPaper_FirstAuthorName.docx. Papers that do not follow the official format or exceed 10 pages may be returned for revision. Full paper submission and payment: 16 January–15 February 2027.",
+    "bm": "Muat naik melalui portal penghantaran yang dipautkan di bawah. Nama fail: ITARS2027_FullPaper_FirstAuthorName.docx. Kertas yang tidak mengikut format rasmi atau melebihi 10 halaman boleh dikembalikan untuk pembetulan. Penghantaran kertas penuh dan pembayaran: 16 Januari–15 Februari 2027."
+  },
+  "substep4": {
+    "en": "4. Review and revision",
+    "bm": "4. Semakan dan pembetulan"
+  },
+  "substep4copy": {
+    "en": "Each paper undergoes double-blind peer review by at least two reviewers, assessing originality, clarity, technical contribution and relevance to the theme, Excellence in TVET and Entrepreneurship. Revise the manuscript in response to their comments before camera-ready submission. Maximum similarity: 20%.",
+    "bm": "Setiap kertas menjalani semakan rakan sebaya secara double-blind oleh sekurang-kurangnya dua penyemak berdasarkan keaslian, kejelasan, sumbangan teknikal dan kesesuaian dengan tema Excellence in TVET and Entrepreneurship. Baiki manuskrip mengikut ulasan sebelum penghantaran versi camera-ready. Kesamaan maksimum: 20%."
+  },
+  "substep5": {
+    "en": "5. Submit your camera-ready paper",
+    "bm": "5. Hantar kertas camera-ready"
+  },
+  "substep5copy": {
+    "en": "Upload the revised final paper by 5 April 2027. Address the reviewers’ comments and retain the official formatting. You may include a cover letter explaining how the comments have been addressed.",
+    "bm": "Muat naik kertas akhir yang telah dibaiki selewat-lewatnya 5 April 2027. Penuhi ulasan penyemak dan kekalkan format rasmi. Surat iringan boleh disertakan untuk menjelaskan tindakan terhadap ulasan."
+  },
+  "substep6": {
+    "en": "6. Register and present online",
+    "bm": "6. Daftar dan bentang dalam talian"
+  },
+  "substep6copy": {
+    "en": "At least one author per paper must register and pay by the deadline. Present online in English on 8 April 2027: 15 minutes plus 5 minutes Q&A. Presenters: local RM200 (second paper RM150), PolyCC student RM150, international USD60 (second paper USD40). Participants: local RM50, international USD20.",
+    "bm": "Sekurang-kurangnya seorang penulis bagi setiap kertas mesti mendaftar dan membayar sebelum tarikh akhir. Pembentangan dalam talian dalam bahasa Inggeris pada 8 April 2027: 15 minit serta 5 minit soal jawab. Pembentang: tempatan RM200 (kertas kedua RM150), pelajar PolyCC RM150, antarabangsa USD60 (kertas kedua USD40). Peserta: tempatan RM50, antarabangsa USD20."
+  },
+  "substep7": {
+    "en": "7. Publication",
+    "bm": "7. Penerbitan"
+  },
+  "substep7copy": {
+    "en": "Accepted and presented papers will be published in the ITARS 2027 Proceedings (ISBN), scheduled for 1–31 May 2027. Selected papers may be considered for the International Journal of Technical Vocational & Engineering Technology (iTVET) or other relevant indexed or refereed journals, subject to standard review and editorial decisions.",
+    "bm": "Kertas yang diterima dan dibentangkan akan diterbitkan dalam Prosiding ITARS 2027 (ISBN), dijadualkan pada 1–31 Mei 2027. Kertas terpilih boleh dipertimbangkan untuk International Journal of Technical Vocational & Engineering Technology (iTVET) atau jurnal berindeks atau berwasit yang berkaitan, tertakluk pada semakan biasa dan keputusan editorial."
+  },
+  "navauthors": {
+    "en": "Author Guidelines",
+    "bm": "Panduan Penulis"
+  },
+  "previouseditions": {
+    "en": "Previous Editions",
+    "bm": "Edisi Terdahulu"
+  },
+  "previousintro": {
+    "en": "Explore the websites of previous ITARS editions and revisit our symposium journey.",
+    "bm": "Terokai laman web edisi ITARS terdahulu dan imbas kembali perjalanan simposium kami."
+  },
+  "visitedition": {
+    "en": "Visit website",
+    "bm": "Lawati laman web"
+  },
+  "visualtitle": {
+    "en": "Your paper. Seven clear steps.",
+    "bm": "Kertas anda. Tujuh langkah mudah."
+  },
+  "visuallead": {
+    "en": "A quick guide from abstract to publication. Open the full requirements below when preparing your submission.",
+    "bm": "Panduan ringkas daripada abstrak hingga penerbitan. Buka syarat lengkap di bawah semasa menyediakan penghantaran."
+  },
+  "fullrequirements": {
+    "en": "View full author requirements",
+    "bm": "Lihat syarat lengkap penulis"
+  },
+  "visualregister": {
+    "en": "Register / submit via CMT",
+    "bm": "Daftar / hantar melalui CMT"
+  },
+  "v1": {
+    "en": "Submit abstract",
+    "bm": "Hantar abstrak"
+  },
+  "v1c": {
+    "en": "250–300 words · English · 3–5 keywords",
+    "bm": "250–300 patah perkataan · Bahasa Inggeris · 3–5 kata kunci"
+  },
+  "v1d": {
+    "en": "1 Nov–31 Dec 2026",
+    "bm": "1 Nov–31 Dis 2026"
+  },
+  "v2": {
+    "en": "Prepare full paper",
+    "bm": "Sediakan kertas penuh"
+  },
+  "v2c": {
+    "en": "6–10 pages · TNR 11 · APA 7 · Official Word template",
+    "bm": "6–10 halaman · TNR 11 · APA 7 · Template Word rasmi"
+  },
+  "v2d": {
+    "en": "After abstract acceptance",
+    "bm": "Selepas abstrak diterima"
+  },
+  "v3": {
+    "en": "Upload & pay",
+    "bm": "Muat naik & bayar"
+  },
+  "v3c": {
+    "en": "Upload your DOCX and payment proof through CMT",
+    "bm": "Muat naik DOCX dan bukti pembayaran melalui CMT"
+  },
+  "v3d": {
+    "en": "16 Jan–15 Feb 2027",
+    "bm": "16 Jan–15 Feb 2027"
+  },
+  "v4": {
+    "en": "Review & revise",
+    "bm": "Semak & baiki"
+  },
+  "v4c": {
+    "en": "Double-blind · At least 2 reviewers · Similarity ≤20%",
+    "bm": "Double-blind · Sekurang-kurangnya 2 penyemak · Kesamaan ≤20%"
+  },
+  "v4d": {
+    "en": "Address reviewer feedback",
+    "bm": "Penuhi ulasan penyemak"
+  },
+  "v5": {
+    "en": "Final camera-ready",
+    "bm": "Versi akhir camera-ready"
+  },
+  "v5c": {
+    "en": "Submit your revised final manuscript",
+    "bm": "Hantar manuskrip akhir yang telah dibaiki"
+  },
+  "v5d": {
+    "en": "By 5 Apr 2027",
+    "bm": "Selewat-lewatnya 5 Apr 2027"
+  },
+  "v6": {
+    "en": "Present online",
+    "bm": "Bentang dalam talian"
+  },
+  "v6c": {
+    "en": "English · 15 min presentation + 5 min Q&A",
+    "bm": "Bahasa Inggeris · Pembentangan 15 min + soal jawab 5 min"
+  },
+  "v6d": {
+    "en": "8 Apr 2027",
+    "bm": "8 Apr 2027"
+  },
+  "v7": {
+    "en": "Publication",
+    "bm": "Penerbitan"
+  },
+  "v7c": {
+    "en": "Accepted & presented papers → ISBN proceedings",
+    "bm": "Kertas diterima & dibentangkan → prosiding ISBN"
+  },
+  "v7d": {
+    "en": "1–31 May 2027",
+    "bm": "1–31 Mei 2027"
+  },
+  "copyaccount": {
+    "en": "Copy account number",
+    "bm": "Salin nombor akaun"
+  },
+  "accountcopied": {
+    "en": "Account number copied",
+    "bm": "Nombor akaun disalin"
+  },
+  "copyfallback": {
+    "en": "Select and copy the account number above.",
+    "bm": "Pilih dan salin nombor akaun di atas."
+  },
+  "feespaylink": {
+    "en": "View payment details",
+    "bm": "Lihat butiran pembayaran"
+  },
+  "feesready": {
+    "en": "Ready to join ITARS 2027?",
+    "bm": "Bersedia menyertai ITARS 2027?"
   }
 };

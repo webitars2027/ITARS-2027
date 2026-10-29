@@ -89,3 +89,14 @@ if ('IntersectionObserver' in window && !reducedMotion.matches) {
   reducedMotion.addEventListener('change',e => { if(e.matches) { document.documentElement.classList.remove('js-motion'); observer.disconnect(); } });
 }
 })();
+/* Payment account copying, with a visible fallback on older browsers. */
+(() => {
+const button=document.querySelector('.copy-account');if(!button)return;
+button.addEventListener('click',async()=>{
+ const lang=document.documentElement.lang==='ms'?'bm':'en';
+ const t=window.ITARS_TRANSLATIONS;
+ const status=document.querySelector('.copy-feedback');
+ try{await navigator.clipboard.writeText('566010607296');status.textContent=t.accountcopied[lang];}
+ catch{const account=document.querySelector('#payment-account');const range=document.createRange();range.selectNodeContents(account);const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);status.textContent=t.copyfallback[lang];}
+});
+})();
