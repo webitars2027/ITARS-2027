@@ -227,17 +227,17 @@ main>section.has-explicit-hero .hero-section-label>.icon{display:block!important
 main>section.has-explicit-hero .hero-section-label>.icon{width:48px!important;height:48px!important;min-width:48px;min-height:48px;padding:9px!important;flex:0 0 48px;box-sizing:border-box}
 
 
-/* ITARS 2027: restore original header and enlarge logo responsively. */
-.site-header .brand img { width: 130px; height: 65px; object-fit: contain; }
-@media (max-width: 700px) {
-  .site-header .nav-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding-block: 10px; }
-  .site-header .brand { flex: 0 1 auto; min-width: 0; }
-  .site-header .brand img { width: 160px; height: 80px; max-width: 100%; }
-  .site-header .nav-actions { display: flex; align-items: center; gap: 6px; margin-left: auto; }
-  .site-header .nav-register { font-size: 13px; padding: 10px 12px; min-height: 44px; }
-  .site-header .menu-toggle { padding: 9px 10px; min-height: 44px; }
+/* ITARS 2027 — corrected responsive logo sizing (October 2026) */
+.site-header .brand{display:flex;align-items:center;flex:0 0 auto;min-width:0}
+.site-header .brand img{display:block;width:130px;height:auto;max-width:100%;object-fit:contain}
+@media(max-width:700px){
+  .site-header .nav-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:10px 0}
+  .site-header .brand img{width:160px;height:auto}
+  .site-header .nav-actions{display:flex;align-items:center;gap:6px;margin-left:auto}
+  .site-header .nav-register{min-height:44px;padding:10px 12px;font-size:13px}
+  .site-header .menu-toggle{min-height:44px;padding:9px 10px}
 }
-@media (max-width: 400px) {
-  .site-header .brand img { width: 145px; height: 73px; }
-  .site-header .nav-inner { gap: 6px; }
+@media(max-width:400px){
+  .site-header .brand img{width:145px;height:auto}
+  .site-header .nav-inner{gap:6px}
 }
