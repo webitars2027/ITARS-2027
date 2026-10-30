@@ -544,8 +544,8 @@ window.ITARS_TRANSLATIONS = {
     "bm": "Pusat Penyelidikan Iklim"
   },
   "spname3": {
-    "en": "Dr hab. Arkadiusz Przybysz, Prof. SGGW",
-    "bm": "Dr hab. Arkadiusz Przybysz, Prof. SGGW"
+    "en": "Associate Prof. Dr hab. Arkadiusz Przybysz",
+    "bm": "Associate Prof. Dr hab. Arkadiusz Przybysz"
   },
   "sprole4": {
     "en": "Kulliyyah of Engineering",
