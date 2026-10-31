@@ -1520,8 +1520,8 @@ window.ITARS_TRANSLATIONS = {
     "bm": "Sediakan slaid yang jelas dan visual"
   },
   "presentationslidescopy": {
-    "en": "Use the official ITARS 2027 PowerPoint or Canva template. Summarise objectives, methods, results and conclusions with concise text, figures, charts and visuals. Download a copy before editing; do not edit the shared template directly.",
-    "bm": "Gunakan template rasmi PowerPoint atau Canva ITARS 2027. Ringkaskan objektif, kaedah, dapatan dan kesimpulan dengan teks padat, rajah, carta serta visual. Muat turun salinan sebelum menyunting; jangan sunting template yang dikongsi secara terus."
+    "en": "Use the official ITARS 2027 PowerPoint template. Summarise objectives, methods, results and conclusions with concise text, figures, charts and visuals. Download a copy before editing; do not edit the shared template directly.",
+    "bm": "Gunakan template rasmi PowerPoint ITARS 2027. Ringkaskan objektif, kaedah, dapatan dan kesimpulan dengan teks padat, rajah, carta serta visual. Muat turun salinan sebelum menyunting; jangan sunting template yang dikongsi secara terus."
   },
   "presentationtech": {
     "en": "Technical readiness and evaluation",
