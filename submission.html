@@ -30,7 +30,7 @@
 #itars-story .j-title{margin:2px 0 6px;font-size:clamp(28px,3.6vw,50px);line-height:1.02;font-weight:900;letter-spacing:-.02em;background:linear-gradient(100deg,#2b1670 20%,#6d28d9 70%,#9d4dff);-webkit-background-clip:text;background-clip:text;color:transparent}
 #itars-story .j-instruction{display:inline-block;font-size:13px;color:#5b4b7c;background:#ffffffc0;border:1px solid #e6dafb;border-radius:999px;padding:5px 12px}
 /* board + road */
-#itars-story .j-board{position:relative;height:var(--H);margin:4px 0 70px}
+#itars-story .j-board{position:relative;height:var(--H);margin:4px 0 8px}
 #itars-story .j-road{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
 #itars-story .j-road path{fill:none;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
 #itars-story .j-road-glow{stroke:#9a5cff;stroke-width:70px;opacity:.35}
@@ -79,7 +79,7 @@
 /* detail drawer */
 #itars-story .itars-detail-drawer{position:relative;z-index:4;margin:6px 0 16px;padding:20px 24px;border-radius:20px;background:#fff;border:1px solid #e3d4fb;border-left:6px solid var(--c1,#7c3aed);box-shadow:0 15px 40px #3b1b6b1f;animation:jIn .3s ease}
 #itars-story .itars-detail-drawer[hidden],#itars-story .itars-pin-detail[hidden]{display:none!important}
-#itars-story .itars-detail-drawer p{margin:0;overflow-wrap:anywhere;font-size:16px;line-height:1.7;color:#31264c}
+#itars-story .itars-detail-drawer p{margin:0;font-size:16px;line-height:1.7;color:#31264c}
 #itars-story .itars-detail-drawer a{display:inline-block;margin-top:12px;color:#6d28d9;font-weight:800;text-decoration:underline;text-underline-offset:3px}
 /* infographic bar */
 #itars-story .j-guide{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:12px;margin:0 0 0 auto;width:fit-content;max-width:100%;padding:10px 12px 10px 14px;border-radius:999px;background:#ffffffd9;border:2px solid #d9c3fb;box-shadow:0 10px 30px #3b1b6b22}
@@ -96,7 +96,7 @@
 @media(max-width:1023px){
  #itars-story{padding:22px 14px 20px;border-radius:24px}
  #itars-story .j-divider{display:none}
- #itars-story .j-board{height:auto;padding:26px 0 46px;margin-bottom:8px}
+ #itars-story .j-board{height:auto;padding:26px 0 46px}
  #itars-story .j-road{display:none}
  #itars-story .j-board:before{content:"";position:absolute;left:12px;top:0;bottom:30px;width:40px;border-radius:20px;background:linear-gradient(#4a23b0,#2b1673 50%,#3a1c96);box-shadow:0 0 0 5px #b98bff,0 0 26px #9a5cff88}
  #itars-story .j-board:after{content:"";position:absolute;left:30.5px;top:8px;bottom:40px;width:3px;background:repeating-linear-gradient(#fff 0 16px,transparent 16px 34px);background-size:3px 34px;animation:jDriveV 1.6s linear infinite}
@@ -111,7 +111,7 @@
  #itars-story .itars-detail-drawer{margin:-18px 0 30px 74px;padding:16px 18px}
  #itars-story .j-guide{border-radius:24px;justify-content:center;width:100%}
  #itars-story .j-guide-label{width:calc(100% - 60px)}
- #itars-story .j-btn{flex:1 1 130px;text-align:center;min-width:0;white-space:normal;padding:11px 12px;font-size:14px}
+ #itars-story .j-btn{flex:1;text-align:center;min-width:140px}
 }
 @media(max-width:420px){#itars-story .itars-pin,#itars-story .itars-pin[data-side]{padding-left:62px}#itars-story .j-stem,#itars-story [data-side] .j-stem{width:18px}#itars-story .j-icon{width:62px;height:62px}#itars-story .j-icon .icon{width:28px;height:28px}#itars-story .itars-detail-drawer{margin-left:62px}}
 @media(prefers-reduced-motion:reduce){#itars-story *,#itars-story *:after,#itars-story *:before{animation:none!important;transition:none!important}#itars-story .j-card{opacity:1}}
@@ -226,7 +226,7 @@
 <a download="" href="assets/downloads/ITARS-2027-Full-Paper-Template.docx">Word template ↗</a>
 </div><div class="itars-pin-detail" hidden="" id="journey-detail-3">
 <p data-i18n="substep3copy">Upload your anonymised paper through the submission portal linked below. Filename: ITARS2027_FullPaper_ShortTitle.docx (no author names). Upload proof of payment in the same submission. Papers that do not follow the official format or exceed 10 pages may be returned for revision. Full paper submission and payment: 16 January–15 February 2027.</p>
-<a href="https://cmt3.research.microsoft.com/ITARS2027" rel="noopener" target="_blank">Microsoft CMT ↗</a> &nbsp; <a data-bm="Butiran yuran &amp; pembayaran →" data-en="Fees &amp; payment details →" href="registration.html">Fees &amp; payment details →</a>
+<a href="https://cmt3.research.microsoft.com/ITARS2027" rel="noopener" target="_blank">Microsoft CMT ↗</a> &nbsp; <a href="registration.html">Fees &amp; payment details →</a>
 </div><div class="itars-pin-detail" hidden="" id="journey-detail-4">
 <p data-i18n="substep4copy">Each paper undergoes double-blind peer review by at least two reviewers, assessing originality, clarity, technical contribution and relevance to the theme, Excellence in TVET and Entrepreneurship. Revise the manuscript in response to their comments before camera-ready submission. Maximum similarity: 20%.</p>
 <a href="https://cmt3.research.microsoft.com/ITARS2027" rel="noopener" target="_blank">Microsoft CMT ↗</a>
@@ -254,7 +254,7 @@
 <li class="date-card reveal" style="--c:#11A35A;--n:#8000ED"><span class="date-icon"><svg aria-hidden="true" class="icon"><use href="#gear"></use></svg></span><h3 data-i18n="d3t">Camera Ready</h3><p data-i18n="d3d">5 Apr 2027</p></li>
 <li class="date-card is-key reveal" style="--c:#7A12E0;--n:#11A35A"><span class="date-icon"><svg aria-hidden="true" class="icon"><use href="#present"></use></svg></span><h3><mark data-i18n="d4t">Online Presentation</mark></h3><p data-i18n="d4d">8 Apr 2027</p></li>
 <li class="date-card reveal" style="--c:#009DA8"><span class="date-icon"><svg aria-hidden="true" class="icon"><use href="#book"></use></svg></span><h3 data-i18n="d5t">Proceedings</h3><p data-i18n="d5d">1 – 31 May 2027</p></li>
-</ol><p class="date-note" data-i18n="deadlinenote" style="margin-top:14px;font-size:14px;opacity:.85">All deadlines close at 23:59 Malaysia time (GMT+8).</p></div></section><section class="section"><div class="container enquiry-panel"><h2 data-i18n="submissioncontact">Need submission guidance?</h2><p data-i18n="submissioncontactcopy">Questions about your submission or payment? Contact the organisers.</p><a class="button teal" data-i18n="navcontact" href="contact.html">Contact</a></div></section><section class="section"><div class="container enquiry-panel"><h2 data-i18n="cmtregister">Registration through Microsoft CMT</h2><p data-i18n="cmtwarning">Register for ITARS 2027 through the official Microsoft CMT portal. The organisers will update the conference details in this portal.</p><div class="button-row"><a class="button teal" data-i18n="cmtlink" href="https://cmt3.research.microsoft.com/ITARS2027" rel="noopener" target="_blank">Register via Microsoft CMT</a><a class="button outline" data-i18n="cmtvideo" href="https://youtu.be/n7a7BSuG8R8" rel="noopener" target="_blank">Watch registration instructions</a></div></div></section></details></div></main>
+</ol><p class="date-note" style="margin-top:14px;font-size:14px;opacity:.85">All deadlines close at 23:59 Malaysia time (GMT+8).</p></div></section><section class="section"><div class="container enquiry-panel"><h2 data-i18n="submissioncontact">Need submission guidance?</h2><p data-i18n="submissioncontactcopy">Questions about your submission or payment? Contact the organisers.</p><a class="button teal" data-i18n="navcontact" href="contact.html">Contact</a></div></section><section class="section"><div class="container enquiry-panel"><h2 data-i18n="cmtregister">Registration through Microsoft CMT</h2><p data-i18n="cmtwarning">Register for ITARS 2027 through the official Microsoft CMT portal. The organisers will update the conference details in this portal.</p><div class="button-row"><a class="button teal" data-i18n="cmtlink" href="https://cmt3.research.microsoft.com/ITARS2027" rel="noopener" target="_blank">Register via Microsoft CMT</a><a class="button outline" data-i18n="cmtvideo" href="https://youtu.be/n7a7BSuG8R8" rel="noopener" target="_blank">Watch registration instructions</a></div></div></section></details></div></main>
 <!-- ============ SHARED FOOTER ============ -->
 <footer class="site-footer"><div class="container footer-inner"><small>© 2027 ITARS</small><nav aria-label="Footer navigation"><a data-i18n="committee" href="committee.html">Committee</a><a data-i18n="footabout" data-page-link="" href="about.html">About ITARS</a><a data-i18n="footprogramme" data-page-link="" href="programme.html">Programme</a><a data-i18n="footcontact" data-page-link="" href="contact.html">Contact</a></nav></div></footer>
 <dialog aria-labelledby="dialog-title" id="page-dialog"><button aria-label="Close dialog" class="dialog-close" type="button">×</button><p class="eyebrow">ITARS 2027</p><h2 data-i18n="dialogtitle" id="dialog-title">This page is being prepared</h2><p><span data-i18n="dialogcopy">The requested resource is awaiting organiser confirmation. Please contact the team for assistance.</span></p><div class="dialog-actions"><a class="button teal" href="assets/images/itars-poster.webp"><span data-i18n="viewposter">View event poster</span></a><a href="tel:+60127899131">Tuan Rozila · +60 12-789 9131</a><a href="tel:+60197607001">Dr. Khairunnisa · +60 19-760 7001</a></div></dialog>
@@ -272,7 +272,7 @@ cards.forEach((card,i)=>{const btn=card.querySelector('.itars-pin-trigger'),deta
   if(opening){drawer.style.setProperty('--c1',card.style.getPropertyValue('--c1'));place();drawer.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'nearest'})}})});
 narrow.addEventListener('change',place);
 const translateExtras=()=>{const bm=document.querySelector('.language-switch [data-lang="bm"][aria-pressed="true"]')!==null;root.querySelectorAll('[data-en][data-bm]').forEach(el=>{el.textContent=bm?el.dataset.bm:el.dataset.en})};
-document.querySelectorAll('.language-switch [data-lang]').forEach(b=>b.addEventListener('click',()=>setTimeout(translateExtras,0)));translateExtras();document.addEventListener('DOMContentLoaded',translateExtras);
+document.querySelectorAll('.language-switch [data-lang]').forEach(b=>b.addEventListener('click',()=>setTimeout(translateExtras,0)));translateExtras();
 })();</script>
 </body>
 </html>
