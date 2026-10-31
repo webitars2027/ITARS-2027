@@ -104,8 +104,8 @@ window.ITARS_TRANSLATIONS = {
     "bm": "8 April 2027 · Sepenuhnya dalam talian. Atur cara terperinci dan waktu sesi akan diumumkan kemudian."
   },
   "speakerhint": {
-    "en": "Swipe to meet our keynote speakers →",
-    "bm": "Leret untuk mengenali penceramah utama →"
+    "en": "Swipe or scroll to meet our keynote speakers →",
+    "bm": "Leret atau skrol untuk mengenali penceramah utama →"
   },
   "ctakicker": {
     "en": "JOIN ITARS 2027",
@@ -232,8 +232,8 @@ window.ITARS_TRANSLATIONS = {
     "bm": "Penyelidikan yang<br>memajukan TVET."
   },
   "aboutp": {
-    "en": "ITARS 6.0 is an international platform for lecturers, researchers, students and industry practitioners to share knowledge, present research findings, strengthen TVET innovation and encourage entrepreneurship for a sustainable and inclusive future.",
-    "bm": "ITARS 6.0 merupakan platform antarabangsa untuk pensyarah, penyelidik, pelajar dan pengamal industri berkongsi ilmu, membentangkan dapatan penyelidikan, memperkukuh inovasi TVET dan menggalakkan keusahawanan demi masa depan yang mampan dan inklusif."
+    "en": "ITARS 2027 is an international platform for lecturers, researchers, students and industry practitioners to share knowledge, present research findings, strengthen TVET innovation and encourage entrepreneurship for a sustainable and inclusive future.",
+    "bm": "ITARS 2027 merupakan platform antarabangsa untuk pensyarah, penyelidik, pelajar dan pengamal industri berkongsi ilmu, membentangkan dapatan penyelidikan, memperkukuh inovasi TVET dan menggalakkan keusahawanan demi masa depan yang mampan dan inklusif."
   },
   "aboutlink": {
     "en": "Learn more about ITARS",
@@ -976,8 +976,8 @@ window.ITARS_TRANSLATIONS = {
     "bm": "Perlukan panduan penghantaran?"
   },
   "submissioncontactcopy": {
-    "en": "Contact the organisers before sending a manuscript or making payment.",
-    "bm": "Hubungi penganjur sebelum menghantar manuskrip atau membuat pembayaran."
+    "en": "Questions about your submission or payment? Contact the organisers.",
+    "bm": "Ada pertanyaan tentang penghantaran atau pembayaran? Hubungi penganjur."
   },
   "progdateslabel": {
     "en": "Submission milestones",
@@ -1484,8 +1484,8 @@ window.ITARS_TRANSLATIONS = {
     "bm": "Sediakan salinan semakan tanpa identiti"
   },
   "reviewanonymouscopy": {
-    "en": "For double-blind review, conceal author names, affiliations and identifying details in the review manuscript. The supplied template contains author fields; confirm the CMT upload requirements with the organisers.",
-    "bm": "Untuk semakan double-blind, sembunyikan nama, afiliasi dan maklumat pengenalan penulis dalam manuskrip semakan. Template yang diberikan mengandungi ruang identiti penulis; sahkan keperluan muat naik CMT dengan penganjur."
+    "en": "For double-blind review, conceal author names, affiliations and identifying details in the review manuscript. Upload an anonymised DOCX for review: remove author names, affiliations, acknowledgements and file properties. Add full author details only in the camera-ready version.",
+    "bm": "Untuk semakan double-blind, sembunyikan nama, afiliasi dan maklumat pengenalan penulis dalam manuskrip semakan. Muat naik fail DOCX tanpa identiti untuk semakan: buang nama penulis, afiliasi, penghargaan dan maklumat dalam sifat fail. Masukkan butiran penuh penulis hanya dalam versi camera-ready."
   },
   "reviewsimilarity": {
     "en": "Originality and similarity",
@@ -1560,8 +1560,8 @@ window.ITARS_TRANSLATIONS = {
     "bm": "3. Hantar kertas penuh"
   },
   "substep3copy": {
-    "en": "Upload through the submission portal linked below. Filename: ITARS2027_FullPaper_FirstAuthorName.docx. Papers that do not follow the official format or exceed 10 pages may be returned for revision. Full paper submission and payment: 16 January–15 February 2027.",
-    "bm": "Muat naik melalui portal penghantaran yang dipautkan di bawah. Nama fail: ITARS2027_FullPaper_FirstAuthorName.docx. Kertas yang tidak mengikut format rasmi atau melebihi 10 halaman boleh dikembalikan untuk pembetulan. Penghantaran kertas penuh dan pembayaran: 16 Januari–15 Februari 2027."
+    "en": "Upload your anonymised paper through the submission portal linked below. Filename: ITARS2027_FullPaper_ShortTitle.docx (no author names). Upload proof of payment in the same submission. Papers that do not follow the official format or exceed 10 pages may be returned for revision. Full paper submission and payment: 16 January–15 February 2027.",
+    "bm": "Muat naik kertas tanpa identiti penulis melalui portal penghantaran yang dipautkan di bawah. Nama fail: ITARS2027_FullPaper_TajukRingkas.docx (tanpa nama penulis). Muat naik bukti pembayaran dalam penghantaran yang sama. Kertas yang tidak mengikut format rasmi atau melebihi 10 halaman boleh dikembalikan untuk pembetulan. Penghantaran kertas penuh dan pembayaran: 16 Januari–15 Februari 2027."
   },
   "substep4": {
     "en": "4. Review and revision",
@@ -1648,8 +1648,8 @@ window.ITARS_TRANSLATIONS = {
     "bm": "6–10 halaman · TNR 11 · APA 7 · Template Word rasmi"
   },
   "v2d": {
-    "en": "After abstract acceptance",
-    "bm": "Selepas abstrak diterima"
+    "en": "From 15 Jan 2027",
+    "bm": "Mulai 15 Jan 2027"
   },
   "v3": {
     "en": "Upload & pay",
@@ -1730,5 +1730,9 @@ window.ITARS_TRANSLATIONS = {
   "feesready": {
     "en": "Ready to join ITARS 2027?",
     "bm": "Bersedia menyertai ITARS 2027?"
+  },
+  "deadlinenote": {
+    "en": "All deadlines close at 23:59 Malaysia time (GMT+8).",
+    "bm": "Semua tarikh akhir ditutup pada 23:59 waktu Malaysia (GMT+8)."
   }
 };
